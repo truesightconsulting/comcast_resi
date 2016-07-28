@@ -1,0 +1,21 @@
+label,group,type,tab,is_chart,is_table,chart,drilldown,dim,filter
+excel_result,By Product by Sales Channel,excel,0,0,0,excel,0,"sales1_id,sales2_id,salchan1_id",NULL
+excel_result,By Market by Tactic,excel,0,0,0,excel,0,"chan1_id, chan2_id,dma1_id,dma2_id,dma3_id",NULL
+excel_result,Drilldown Result,excel,0,0,0,excel,0,"chan1_id, chan2_id,dma1_id,dma2_id,dma3_id,sales1_id,sales2_id,salchan1_id",NULL
+lobchart_2,Product,sales,3,1,0,bar,1,"sales1_id,sales2_id",NULL
+lobchart_1,Product,sales,3,1,0,bar,1,sales1_id,NULL
+lobtable_2,Product,sales,3,0,1,table,1,"sales1_id,sales2_id,dma1_id,dma2_id,dma3_id",dma
+lobtable_1,Product,sales,3,0,1,table,1,"sales1_id,dma1_id,dma2_id,dma3_id",dma
+overall,overall,overall,0,0,0,overall,0,all_id,NULL
+tacticchart_2,Tactic,chan,1,1,0,bar,1,"chan2_id,chan1_id",NULL
+tacticchart_1,Tactic,chan,1,1,0,bar,1,chan1_id,NULL
+tactictable_2,Tactic,chan,1,0,1,table,1,"chan2_id,chan1_id,dma1_id,dma2_id,dma3_id",dma
+tactictable_1,Tactic,chan,1,0,1,table,1,"chan1_id,dma1_id,dma2_id,dma3_id",dma
+dmachart_3,Market,dma,2,1,0,bar,1,"dma1_id,dma2_id,dma3_id",NULL
+dmachart_2,Market,dma,2,1,0,bar,1,"dma1_id,dma2_id",NULL
+dmachart_1,Market,dma,2,1,0,bar,1,dma1_id,NULL
+dmatable_3,Market,dma,2,0,1,table,1,"dma1_id,dma2_id,dma3_id",NULL
+dmatable_2,Market,dma,2,0,1,table,1,"dma1_id,dma2_id",NULL
+dmatable_1,Market,dma,2,0,1,table,1,dma1_id,NULL
+salchanchart_1,Sales Channel,salchan,4,1,0,bar,1,salchan1_id,NULL
+salchantable_1,Sales Channel,salchan,4,0,1,table,1,salchan1_id,NULL
