@@ -1,5 +1,9 @@
-sales1_name,clv,approval
-CDV,1,1
-HSD,1,1
-Video,1,1
-XHS,1,1
+sales1_name,sales2_name,clv,approval
+New,CDV,1,1
+New,HSD,1,1
+New,Video,1,1
+New,XHS,1,1
+Existing,CDV,1,1
+Existing,HSD,1,1
+Existing,Video,1,1
+Existing,XHS,1,1

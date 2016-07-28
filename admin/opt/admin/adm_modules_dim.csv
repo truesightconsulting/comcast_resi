@@ -1,9 +1,10 @@
 label,dim,flag_cstr,flag_event,flag_multigoal
 overall,all_id,0,0,0
-Tactic,chan2_id,1,1,0
-Sub Tactic,chan1_id,1,1,0
-DMA,dma1_id,1,1,0
+Sub Tactic,chan2_id,1,1,0
+Tactic,chan1_id,1,1,0
+Division,dma1_id,1,1,0
 Region,dma2_id,1,1,0
-Division,dma3_id,1,1,0
-Product,sales1_id,0,1,1
-Customer,sales2_id,0,1,1
+DMA,dma3_id,1,1,0
+Customer,sales1_id,0,1,1
+Product,sales2_id,0,1,1
+Sales Channel,salchan1_id,0,1,0

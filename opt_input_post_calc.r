@@ -26,7 +26,7 @@ source(paste(main.path,"opt_modelinput_post_calc_agg.r",sep=""),local = T)
 # format output
 # new var 
 metric_eff=c("eff1","eff1_start")
-name_eff=c("CPA","Planned CPA")
+name_eff=c("CP-RGU","Planned CP-RGU")
 f_eff=c("spend/decomp","spend_start/decomp_start")
 
 # existing var
@@ -38,8 +38,8 @@ order_all=c("spend","decomp","value","eff1","spend_start","decomp_start","value_
 order_other=c("spend","spend_start","decomp","decomp_start","value","value_start","eff1","eff1_start")
 
 # any columns to be dropped for all, excel and other tables; NAME HERE IS AFTER RENAMED!!!!!!!!!!!!!!!!!!!!!!!!!!
-drop_all=c("all_name")
-drop_excel=c()
+drop_all=c("all_name","Value","Planned Value")
+drop_excel=c("Value","Planned Value")
 drop_other=c("Value","Planned Value")
 
 source(paste(main.path,"opt_modelinput_post_calc_format.r",sep=""),local = T)
