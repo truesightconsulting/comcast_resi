@@ -26,7 +26,7 @@ source(paste(main.path,"opt_modelinput_post_calc_agg.r",sep=""),local = T)
 # format output
 # new var 
 metric_eff=c("eff1","eff1_start")
-name_eff=c("CP-RGU","Planned CP-RGU")
+name_eff=c("CPMC","Planned CPMC")
 f_eff=c("spend/decomp","spend_start/decomp_start")
 
 # existing var
